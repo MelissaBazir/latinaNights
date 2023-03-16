@@ -15,6 +15,15 @@ a {
 
 /* END OF CSS RESET */
 
+/* GENERAL STYLING */
+body {
+    background-image: url(./images/street-dancing.jpg);
+    background-size: contain;
+    opacity: 150%;
+}
+
+/* END OF GENERAL STYLING */
+
 /* NAVBAR STYLING */
 .logo a {
     text-transform: uppercase;
@@ -40,7 +49,7 @@ a {
     margin-bottom: 2em;
 }
 .main-title {
-    color: #403d58;
+    color: bisque;
 }
 
 .subtitle {
