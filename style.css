@@ -6,7 +6,7 @@
 }
 
 ul {
-    list-style: none
+    list-style: none;
 }
 
 a {
@@ -15,4 +15,63 @@ a {
 
 /* END OF CSS RESET */
 
+/* NAVBAR STYLING */
+.logo a {
+    text-transform: uppercase;
+    color: #ff4f33;
+    font-weight: bold;
+}
 
+.logo a:hover {
+    color: #ff4f33;
+}
+
+.dropdown-menu.show {
+    width: 0.2em;
+    /* width not working : why ? */
+}
+
+/* END OF NAVBAR STYLING */
+
+/* TITLES STYLING */
+
+.titles {
+    text-align: center;
+    margin-bottom: 2em;
+}
+.main-title {
+    color: #403d58;
+}
+
+.subtitle {
+    color: #ff4f33;
+}
+
+/* END OF TITLES STYLING */
+
+/* SECTION STYLING */
+section {
+    border: 1px solid #ff4f33;
+    border-radius: 5px;
+    margin-bottom: 2em;
+    opacity: 85%;
+}
+
+.presentation {
+    border: 1px solid #403d58;
+    background-color: #403d58;
+    color: bisque;
+}
+
+.organization {
+    border: 1px solid #ff4f33;
+    background-color: #ff4e33;
+}
+
+.event-link {
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+}
+
+/* END OF PRESENTATION STYLING */
