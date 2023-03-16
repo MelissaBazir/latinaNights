@@ -1,0 +1,18 @@
+/* CSS RESET to erase all the default styles set by the browser */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none
+}
+
+a {
+    text-decoration: none;
+}
+
+/* END OF CSS RESET */
+
+
