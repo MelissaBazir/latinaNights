@@ -11,13 +11,14 @@ ul {
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 /* END OF CSS RESET */
 
 /* GENERAL STYLING */
 body {
-    background-image: url(./images/street-dancing.jpg);
+    background-image: url(../images/street-dancing.jpg);
     background-size: contain;
 }
 
@@ -25,7 +26,7 @@ body {
 .black-filter {
     background-color: rgba(0, 0, 0, 0.47);
     width: 100%;
-    height: 100%;
+    height: 100vh;
 }
 
 /* END OF GENERAL STYLING */
@@ -33,7 +34,7 @@ body {
 /* NAVBAR STYLING */
 
 nav {
-    opacity: 75%;
+    opacity: 70%;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
@@ -78,13 +79,13 @@ section {
     opacity: 85%;
 }
 
-.presentation {
+.purple {
     border: 1px solid #403d58;
     background-color: #403d58;
     color: bisque;
 }
 
-.organization {
+.coral {
     border: 1px solid #ff4f33;
     background-color: #ff4e33;
 }
