@@ -62,7 +62,7 @@ nav {
     margin-bottom: 2em;
 }
 .main-title {
-    color: bisque;
+    color: blanchedalmond;
 }
 
 .subtitle {
@@ -73,16 +73,19 @@ nav {
 
 /* SECTION STYLING */
 section {
-    border: 1px solid #ff4f33;
     border-radius: 5px;
     margin-bottom: 2em;
     opacity: 85%;
+    width: 50%;
 }
 
+section p {
+    width: 50%;
+}
 .purple {
     border: 1px solid #403d58;
     background-color: #403d58;
-    color: bisque;
+    color: blanchedalmond;
 }
 
 .coral {
@@ -96,4 +99,31 @@ section {
     text-decoration: underline;
 }
 
-/* END OF PRESENTATION STYLING */
+/* END OF SECTION STYLING */
+
+/* EVENTS STYLING */
+.card {
+    margin: 1em auto;
+    border: none;
+}
+
+.card-body {
+    text-align: center;
+}
+
+/* END OF EVENTS STYLING */
+
+/* FOOTER STYLING */
+footer {
+    position: relative;
+    bottom: 0;
+    color: blanchedalmond;
+    margin-bottom: 2em;
+}
+
+footer img {
+    width: 2em;
+    margin: 0.2em;
+}
+
+/* END OF FOOTER STYLING */
