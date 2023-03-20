@@ -37,6 +37,7 @@ nav {
     opacity: 70%;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    margin-bottom: 2em;
 }
 .logo a {
     text-transform: uppercase;
@@ -59,7 +60,7 @@ nav {
 
 .titles {
     text-align: center;
-    margin-bottom: 2em;
+    margin-bottom: 4em;
 }
 .main-title {
     color: blanchedalmond;
@@ -69,24 +70,32 @@ nav {
     color: #ff4f33;
 }
 
+.page-title {
+    color: blanchedalmond;
+    margin: 1em auto;
+    font-style: italic;
+
+}
+
 /* END OF TITLES STYLING */
 
 /* SECTION STYLING */
+.sections {
+    padding: 0 2em;
+}
+
 section {
     border-radius: 5px;
     margin-bottom: 2em;
     opacity: 85%;
-    width: 50%;
 }
 
-section p {
-    width: 50%;
-}
 .purple {
     border: 1px solid #403d58;
     background-color: #403d58;
     color: blanchedalmond;
 }
+
 
 .coral {
     border: 1px solid #ff4f33;
@@ -115,8 +124,6 @@ section p {
 
 /* FOOTER STYLING */
 footer {
-    position: relative;
-    bottom: 0;
     color: blanchedalmond;
     margin-bottom: 2em;
 }
