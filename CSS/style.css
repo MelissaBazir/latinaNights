@@ -19,14 +19,16 @@ a {
 /* GENERAL STYLING */
 body {
     background-image: url(../images/street-dancing.jpg);
-    background-size: contain;
+    background-size: cover;
 }
+
+
 
 /* black filter on the background image */
 .black-filter {
-    background-color: rgba(0, 0, 0, 0.47);
+    background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 
 /* END OF GENERAL STYLING */
@@ -74,7 +76,6 @@ nav {
     color: blanchedalmond;
     margin: 1em auto;
     font-style: italic;
-
 }
 
 /* END OF TITLES STYLING */
@@ -95,7 +96,6 @@ section {
     background-color: #403d58;
     color: blanchedalmond;
 }
-
 
 .coral {
     border: 1px solid #ff4f33;
@@ -125,7 +125,7 @@ section {
 /* FOOTER STYLING */
 footer {
     color: blanchedalmond;
-    margin-bottom: 2em;
+    padding-bottom: 2em;
 }
 
 footer img {
