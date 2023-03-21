@@ -22,13 +22,20 @@ body {
     background-size: cover;
 }
 
-
-
 /* black filter on the background image */
 .black-filter {
     background-color: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+/* black filter for the events page */
+.black-filter-events {
+    background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
     height: 100%;
+    margin: 0;
 }
 
 /* END OF GENERAL STYLING */
@@ -36,12 +43,15 @@ body {
 /* NAVBAR STYLING */
 
 nav {
-    /* opacity: 60%; */
-    background-color: transparent;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    margin-bottom: 6em;
+    opacity: 80%;
+    background: black;
+    margin-bottom: 4%;
 }
+
+.navbar-toggler-icon {
+    filter: invert(60%);
+}
+
 .logo {
     text-transform: uppercase;
     color: #ff4f33;
@@ -52,9 +62,13 @@ nav {
     color: #ff4f33;
 }
 
-.dropdown-menu.show {
-    width: 0.2em;
+.nav-link {
+    color: bisque;
     /* width not working : why ? */
+}
+
+.nav-link:hover {
+    color: #ff4f33;
 }
 
 /* END OF NAVBAR STYLING */
@@ -63,11 +77,11 @@ nav {
 
 .titles {
     text-align: center;
-    margin-top: 0;
-    margin-bottom: 4em;
+    padding-top: 15%;
+    margin-bottom: 6%;
 }
 .main-title {
-    color: blanchedalmond;
+    color: bisque;
 }
 
 .subtitle {
@@ -75,7 +89,7 @@ nav {
 }
 
 .page-title {
-    color: blanchedalmond;
+    color: bisque;
     margin: 1em auto;
     font-style: italic;
 }
@@ -84,19 +98,19 @@ nav {
 
 /* SECTION STYLING */
 .sections {
-    padding: 0 2em;
+    padding: 0;
 }
 
 section {
     border-radius: 5px;
-    margin-bottom: 2em;
+    margin-bottom: 4%;
     opacity: 85%;
 }
 
 .purple {
     border: 1px solid #403d58;
     background-color: #403d58;
-    color: blanchedalmond;
+    color: bisque;
 }
 
 .coral {
@@ -114,7 +128,7 @@ section {
 
 /* EVENTS STYLING */
 .card {
-    margin: 1em auto;
+    margin: 5% auto;
     border: none;
 }
 
@@ -126,8 +140,9 @@ section {
 
 /* FOOTER STYLING */
 footer {
-    color: blanchedalmond;
-    padding-bottom: 2em;
+    color: bisque;
+    padding-bottom: 2%;
+    margin-top: 3.5%;
 }
 
 footer img {
