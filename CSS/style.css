@@ -36,18 +36,19 @@ body {
 /* NAVBAR STYLING */
 
 nav {
-    opacity: 70%;
+    /* opacity: 60%; */
+    background-color: transparent;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    margin-bottom: 2em;
+    margin-bottom: 6em;
 }
-.logo a {
+.logo {
     text-transform: uppercase;
     color: #ff4f33;
     font-weight: bold;
 }
 
-.logo a:hover {
+.logo:hover {
     color: #ff4f33;
 }
 
@@ -62,6 +63,7 @@ nav {
 
 .titles {
     text-align: center;
+    margin-top: 0;
     margin-bottom: 4em;
 }
 .main-title {
