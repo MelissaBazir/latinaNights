@@ -31,7 +31,6 @@ body {
     margin: 0;
 }
 
-
 /* END OF GENERAL STYLING */
 
 /* NAVBAR STYLING */
@@ -53,7 +52,12 @@ nav {
 }
 
 .logo:hover {
-    color: #ff4f33;
+    color: #ff4e33a9;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .nav-link {
@@ -121,6 +125,12 @@ section {
 /* END OF SECTION STYLING */
 
 /* EVENTS STYLING */
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 .card {
     margin: 5% auto;
     border: none;
@@ -145,3 +155,12 @@ footer img {
 }
 
 /* END OF FOOTER STYLING */
+
+/* RESPONSIVE */
+
+@media screen and (min-width: 576px) {
+    .cards {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
